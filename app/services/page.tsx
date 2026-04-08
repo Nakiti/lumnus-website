@@ -101,20 +101,19 @@ export default function Services() {
     <>
       {/* Hero Section */}
       <section 
-        className="relative h-[40vh] flex items-center justify-center"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/Services-hero.JPEG')",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "125% auto",
-          backgroundPosition: "0% 55%",
-          backgroundAttachment: "fixed",
-        }}
-      >
-        <h1 className="text-white text-4xl md:text-5xl tracking-wider">
-          OUR SERVICES
-        </h1>
-      </section>
+  className="relative h-[40vh] flex items-center justify-center"
+  style={{
+    backgroundImage:
+      "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/Services-hero.JPEG')",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center 20%",
+  }}
+>
+  <h1 className="text-white text-4xl md:text-5xl tracking-wider">
+    OUR SERVICES
+  </h1>
+</section>
 
       {/* Services Grid Section */}
       <section className="py-24 px-8 bg-white">
